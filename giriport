@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aeronautical Portfolio | Your Name</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+  <!-- Header -->
+  <header class="bg-gray-800 p-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold">Your Name</h1>
+    <nav>
+      <ul class="flex space-x-6">
+        <li><a href="#about" class="hover:text-blue-400">About</a></li>
+        <li><a href="#skills" class="hover:text-blue-400">Skills</a></li>
+        <li><a href="#projects" class="hover:text-blue-400">Projects</a></li>
+        <li><a href="#contact" class="hover:text-blue-400">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="text-center py-20 bg-gradient-to-b from-gray-900 to-black">
+    <h2 class="text-4xl font-bold mb-4">Aeronautical Engineer & Innovator</h2>
+    <p class="text-gray-400 text-lg">Specialized in UAV Systems, CFD Analysis, Python Programming & UI/UX Design</p>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-16 px-6 md:px-20">
+    <h3 class="text-3xl font-bold mb-4">About Me</h3>
+    <p class="text-gray-300">
+      I'm an Aeronautical Engineering student passionate about aerospace innovation. I love working on UAV systems, applying coding in engineering solutions, and blending UI/UX design with technical projects. My goal is to contribute to smart aerospace systems using modern tools and technologies.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="bg-gray-800 py-16 px-6 md:px-20">
+    <h3 class="text-3xl font-bold mb-4">Skills</h3>
+    <ul class="grid grid-cols-2 md:grid-cols-3 gap-4 text-gray-200">
+      <li>Python Programming</li>
+      <li>UI/UX Design (Figma)</li>
+      <li>SolidWorks & CAD</li>
+      <li>CFD Analysis (ANSYS)</li>
+      <li>UAV Design</li>
+      <li>MATLAB & Simulations</li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-16 px-6 md:px-20">
+    <h3 class="text-3xl font-bold mb-4">Projects</h3>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+        <h4 class="text-xl font-semibold mb-2">Modular UAV Inspection System</h4>
+        <p class="text-gray-400">Designed and simulated a UAV for pipeline inspection with real-time telemetry and AI integration.</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+        <h4 class="text-xl font-semibold mb-2">Women Safety App (UI/UX)</h4>
+        <p class="text-gray-400">Created a mobile app interface for real-time emergency alerts and predictive location tracking.</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+        <h4 class="text-xl font-semibold mb-2">Blended Wing Aircraft Design</h4>
+        <p class="text-gray-400">Performed aerodynamic analysis and modeled a blended-wing aircraft using SolidWorks and ANSYS Fluent.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="bg-gray-800 py-16 px-6 md:px-20">
+    <h3 class="text-3xl font-bold mb-4">Contact Me</h3>
+    <p class="text-gray-400 mb-4">Interested in working together or have questions? Email me at <strong>youremail@example.com</strong></p>
+    <form class="space-y-4 max-w-md">
+      <input type="text" placeholder="Your Name" class="w-full p-2 rounded bg-gray-700 text-white" />
+      <input type="email" placeholder="Your Email" class="w-full p-2 rounded bg-gray-700 text-white" />
+      <textarea placeholder="Your Message" class="w-full p-2 rounded bg-gray-700 text-white"></textarea>
+      <button type="submit" class="bg-blue-600 px-4 py-2 rounded hover:bg-blue-700">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center text-gray-500 p-4 mt-10">
+    &copy; 2025 Your Name. All rights reserved.
+  </footer>
+
+</body>
+</html>
